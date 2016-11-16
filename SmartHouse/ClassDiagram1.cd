@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartHouse.Device">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAIA=</HashCode>
+      <FileName>model\logic\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.TV">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAIIAAAAAIAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>model\logic\TV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Heater">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>model\logic\Heater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.UserDevice">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>model\logic\UserDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Conditioner">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>model\logic\Conditioner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Slider">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAAAAAAAAggAAAAAAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>model\logic\Slider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Class1">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

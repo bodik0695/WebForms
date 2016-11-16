@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: center;
+	width: 70%;
+	margin: auto;
+	background-image: url(../images/3f58ec0035b5f8e72085b1dd9c53b29d11.jpg);
+}
+footer {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h1, .nav {
+	padding-left: 200px;
+	padding-top: 35px;
+}
+img {
+	float: left;
+}
+.form {
+	min-height: 450px;
+}
+.generalTable { 
+	border-spacing: 20px;
+}
+.li {
+	display: inline;
+}
+.templates, .display {
+	
+	height: 500px;
+	border: 1px solid;
+	border-color: #0000;
+	border-width: 2px;
+	border-radius: 10px;
+}
+.templates {
+	min-width: 200px;
+	vertical-align: top;
+	text-align: left;
+}
+.template {
+	background: rgba(100, 100, 100, 0.5);
+	border-radius: 12px;
+	color: #ffffff;
+}
+.display {
+	position: relative;
+	width: 80%;
+	vertical-align: top;
+	text-align: center;
+}
+.device {
+	min-width: 190px;
+	width: 190px;
+	border-radius: 10px;
+	float: left;
+}
+.userDevice {
+	min-height: 65px; 
+}
+.tv {
+	min-height: 250px;
+}
+.heater, .conditioner {
+	min-height: 115px;
+}
+.bg {
+	background: rgba(0, 250, 209, 0.6);
+}
+.userDevice {
+	background: rgba(250, 250, 0, 0.5);
+}
+.tv {
+	background: rgba(0, 0, 250, 0.5);
+}
+.heater {
+	background: rgba(250, 0, 0, 0.5);
+}
+.conditioner {
+	background: rgba(250, 0, 250, 0.5);
+}
+.templateAddDeviceButton {
+	left: 30%;
+}
+.templateSelectButton, .templateAddDeviceButton {
+  position: relative;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  width: 70px;
+  height: 18px;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  padding: center;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #0c319c linear-gradient(#6a8beb, #0c319c);
+  box-shadow: inset #6a8beb 0 -1px 1px, inset 0 1px 1px #6a8beb, #6a8beb 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+}
+.templateSelectButton:hover, .templateAddDeviceButton:hover {
+	color: #fff;
+	text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+}
+.templateSelectButton:active , .templateAddDeviceButton:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.addElementButton, .applyButton {
+  position: relative;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  width: 199px;
+  height: 18px;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  padding: center;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #08cb51 linear-gradient(#08cb51, #04b346);
+  box-shadow: inset #3dbd6d 0 -1px 1px, inset 0 1px 1px #3dbd6d, #3dbd6d 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+}
+
+.addElementButton:hover, .applyButton:hover {
+	color: #fff;
+	text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+}
+.addElementButton:active, .applyButton:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.removeElementButton, .onOffButton {
+  position: relative;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  width: 199px;
+  height: 18px;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  padding: center;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #ea6f6f linear-gradient(#ea6f6f, #ea6f6f);
+  box-shadow: inset #f67a7a 0 -1px 1px, inset 0 1px 1px #f67a7a, #f67a7a 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+}
+.removeElementButton:hover, .onOffButton:hover {
+	color: #fff;
+	text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+}
+.removeElementButton:active, .onOffButton:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.applyButton, .onOffButton {
+	width: 185px;
+}
+.delButton {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	right: 5px;
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url(../images/red-delete-button15.jpg) center;
+	border-radius: 50%;
+	
+}
